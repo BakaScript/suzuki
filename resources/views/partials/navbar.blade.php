@@ -1,18 +1,13 @@
  <!-- Navbar -->
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#">
                 <img src="images/logo_navbar_suzuki.png" width="200px" alt="">
-                <span class="ml-2"> | Setiabudi NJS - </span>
-                <span class="ml-2 mt-2" style="font-size:13px">Jl. Setiabudhi no 78. </span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="pt-1 tagline_mobile">
-                <p class="col-7">Setiabudi NJS</p>
-            </div>
             
 
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -51,9 +46,37 @@
 
             </div>
 
+           
+
+
         </div>
+
+        
         
     </nav>
+
+    {{-- <div class=" tagline_mobile">
+        <p class="col-5 text-blue">NJS Setiabudi</p><small class="col"><i class="fa fa-phone"></i> 082216538309 (Kang Arif) </small>
+    </div>
+     --}}
+    <div class="container-fluid py-1 d-flex bg-light">
+        <div class="row" style="width:100%!important">
+
+            <div class="col-md-6 text-small-center">
+
+                <span class="ml-md-2 text-blue"> NJS Setiabudi</span>
+                <span class="d-md"> - Jl. Setiabudi no. 78, bandung</span>
+            </div>
+            <div class="col-md-6 text-md-right text-small-center">
+
+                <span class="text-phone"><i class="fa fa-phone"></i> 082216538309 (Kang Arif) </span>
+            </div>
+
+        </div>
+
+    </div>
+
+
 
     
     <!-- Navbar End-->

@@ -14,24 +14,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #222 ;
 }
 
-/* Nav */
-.tagline_mobile {
-    display: none ;
-    margin-bottom: -25px;
-    line-height: 40px ;
-    color : black ;
+.text-blue {
+    color : #114298 ;
+    font-weight:bold
 }
 
-.tagline_mobile::before {
-    content: '';
-    /* width: 198px; */
-    left: 0;
-    height: 1px;
-    /* padding: 2px; */
-    background: rgba(0,0,0, 0.2);
-    right: 0;
-    position: absolute;
-}
+/* Nav */
+
 /* End Nav */
 
 
@@ -39,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 .carousel-cell {
     width: 100%; /* full width */
     margin-right: 0;
+    
   }
 
 .carousel-img {
@@ -105,10 +95,6 @@ h1, h2, h3, h4, h5, h6 {
     border-left: 1.5px dashed #363636 ;
 }
 
-.rp {
-    font-size : 20px ;
-}
-
 .card-link {
     color : #363636 ;
 }
@@ -121,9 +107,17 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 240px;
 }
 
+.text_price_promo {
+    line-height: 0px ; 
+    color: #db3d09 ;
+    text-decoration: line-through ; 
+    font-size : 14px ;
+}
+
 .text_price {
-    line-height: 0 ; 
     color: #114298 ;
+    font-size : 16px ;
+    font-weight : bold ;
 }
 
 .text-primary-suzuki {
@@ -203,14 +197,14 @@ footer {
     }
 
     .tagline_mobile {
-        display: flex ;
-        width : 100% ;
+        margin-top : 15px ;
+        margin-left: -25px ;
     }
 
     .carousel-img {
         width: 100% ;
-        max-height : 150px ;
-        min-height: 150px ;
+        max-height : 225px ;
+        min-height: 225px ;
         top : 0 ;
 
     }
@@ -227,6 +221,8 @@ footer {
         width: 6px ;
         height : 6px ;
     }
+
+    
 
     
 
@@ -252,6 +248,7 @@ footer {
 
     .main__tagline {
         margin-top : 20px ;
+        padding-bottom : 15px ;
         font-size: 18px;
         text-align: center ;
     }
@@ -269,5 +266,12 @@ footer {
         line-height: 40px ;
         font-size : 30px ;
     }
+
+    .d-md {
+        display: none !important;
+    }
    
+    .text-small-center {
+        text-align: center !important;
+    }
 }
